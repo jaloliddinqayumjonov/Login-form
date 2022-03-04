@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --textSize:17px;
+    --inputheight:60px;
+    --inputwidth:90%;
+    --borderRadius:10px;
+    --color:white;
+}
+.back{
+    margin-top: 40px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(270deg,rgb(48, 55, 170),rgb(114,118,204));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cotainer{
+    height: 600px;
+    width: 550px ;
+    border-radius: 20px;
+    background: linear-gradient(45deg,rgb(114,118,204),rgb(48, 55, 170));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container h1{ 
+    font-weight: 750;
+    font-size: 40px;
+    color: var(--color);
+    text-align: center;
+    padding-top: 40px;
+}
+.container h4{
+    color: var(--color);
+    
+}
+.container{
+    width: 85%;
+    height: 100%;
+    
+}
+::placeholder{
+    color:rgb(172,177,232);
+}
+.input{
+    height: 60px;
+    width:100%;
+    
+    text-indent: 10px;
+    background: linear-gradient(45deg,rgb(126,128,209),rgb(85,90,173));
+    outline: none;
+    border-radius: var(--borderRadius);
+    border: 1px solid transparent;
+    margin: 20px 0;
+    font-size: var(--textSize);
+}
+.check{
+    width: 18px;
+    height: 18px;
+}
+.hh{
+    font-size: var(--textSize);
+    margin-left: 10px;
+    font-weight: 600;
+    color: var(--color);
+}
+button{
+    height: 65px;
+    width: 100%;
+    background: rgb(13,188,201);
+    border-radius: var(--borderRadius);
+    border: 1px solid rgb(13,188,201) ;
+    margin: 30px 0;
+    color: var(--color);
+    font-size: var(--textSize);
+}
+h2{
+    font-size: var(--textSize);
+    color:var(--color) ;
+    text-align: center;
+    margin-top: 20px;
+}
+.cotainer:hover{
+    box-shadow: 20px -20px rgb(13,188,201) ;
+    transition-duration: .5s;
+    transition-delay: .2;
+    
+}
+h4{
+    color: var(--color);
+    font-size: var(--textSize);
+    margin-top: 40px;
+}
+h4 span{
+    font-weight: 500;
+}
+h6{
+    color: var(--color);
+    font-size: var(--textSize);
+}
